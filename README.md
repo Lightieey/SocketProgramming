@@ -12,8 +12,17 @@
 모든 사용자의 채팅방 출입 내역, 채팅, 귓속말 내용 서버 화면에 표시
 <br><br>
 ## 시작 방법
+### main branch (Java, Intellij)
 1. Clone or download zip
 2. Run ChatServer.java
 3. Run ChatClient.java and enter your IP address, and nickname.
 4. 귓속말 기능을 사용하고 싶다면 <code>/to [nickname] [message]</code> 입력.<br>
    대괄호는 제외하고 입력, 서버의 경우 nickname은 server임.
+<br><br>
+### Android branch (Java, AndroidStudio)
+안드로이드에는 서버가 없으므로 꼭 main branch 프로젝트의 서버를 실행시키고 진행해야 한다.
+1. Clone or download zip
+2. Run ChatServer.java from main branch project
+3. Run Android App and enter your IP address, and nickname.<br>
+*참고로 emulator localhost IP는 10.0.2.2이다.
+4. 귓속말 기능은 
