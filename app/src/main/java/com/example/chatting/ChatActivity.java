@@ -27,6 +27,7 @@ public class ChatActivity extends AppCompatActivity {
     private Handler mHandler;
     private Handler mHandlerInputText;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,7 +50,7 @@ public class ChatActivity extends AppCompatActivity {
             public void run() {
                 // 서버 연결
                 try {
-                    socket = new Socket(serverIP, 8888);
+                    socket = new Socket(serverIP, 8889);
                     reader = new ObjectInputStream(socket.getInputStream());
                     writer = new ObjectOutputStream(socket.getOutputStream());
                     System.out.println("Client is ready");
