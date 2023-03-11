@@ -25,4 +25,4 @@
 2. Run ChatServer.java from main branch project
 3. Run Android App and enter your IP address, and nickname.<br>
 *참고로 emulator localhost IP는 10.0.2.2이다.
-4. 귓속말 기능은 
+4. 귓속말 기능은 위와 동일하다.
